@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.29.4-trixie
 MAINTAINER Mahmoud Gamal <mhmoudgmal.89@gmail.com>
 
 COPY dist/index.html /usr/share/nginx/html
